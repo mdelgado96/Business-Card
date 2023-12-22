@@ -1,4 +1,20 @@
 /* This is an example CSS file, feel free to remove/edit it anytime */
+
+body {
+  background-color: rgb(171, 216, 216);
+}
+
+.main {
+  position: absolute;
+  background-color: white;
+  left: 50%;
+  top: 50%;
+  height: 40%;
+  width: 75%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+}
+
 .footer {
   position: absolute;
   bottom: 0;
