@@ -1,7 +1,7 @@
 /* This is an example CSS file, feel free to remove/edit it anytime */
 
 body {
-  background-color: rgb(171, 216, 216);
+  background-color: rgb(155, 196, 196);
 }
 
 .main {
@@ -9,10 +9,25 @@ body {
   background-color: white;
   left: 50%;
   top: 50%;
-  height: 40%;
+  height: 75%;
   width: 75%;
   transform: translate(-50%, -50%);
-  border-radius: 10px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.4) 10px 10px 10px,
+    /* fix shadow */ rgba(0, 0, 0, 0.3) 0px 7px 13px -3px,
+    rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.contact {
+  position: absolute;
+  width: 30%;
+  height: 100%;
+  background-color: rgb(0, 178, 178);
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.contact-info {
+  margin-left: 40px;
 }
 
 .footer {
