@@ -1,11 +1,18 @@
 /* This is an example CSS file, feel free to remove/edit it anytime */
 
+/* * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+} */
+
 body {
   background-color: rgb(155, 196, 196);
 }
 
 .main {
-  position: absolute;
+  position: fixed;
   background-color: white;
   left: 50%;
   top: 50%;
@@ -26,20 +33,53 @@ body {
 }
 
 .contact-info {
+  position: relative;
   height: 100%;
+  width: 100%;
+  margin: auto;
+  /* max-width: 300px; */
   display: flex;
   align-items: end;
+}
+
+/* .contact {
+  position: absolute;
+} */
+
+.email-phone {
+  margin-left: 40px;
+}
+
+.email {
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+.email-ad {
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+
+.phone {
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+.phone-num {
+  margin-top: 0px;
+}
+
+.split-bar {
+  margin-top: 20px;
+  height: 20px;
+  background-color: lightgray;
+}
+
+.find-me-links {
   margin-left: 40px;
 }
 
 .contact {
   margin-bottom: 60px;
-}
-
-.two {
-  width: 253%;
-  background-color: rgb(216, 215, 215);
-  height: 20px;
 }
 
 .footer {
