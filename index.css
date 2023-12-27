@@ -1,11 +1,19 @@
-/* This is an example CSS file, feel free to remove/edit it anytime */
-
 /* * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
 } */
+
+@font-face {
+  font-family: Poppins;
+  src: url("/assets/fonts/Poppins-Regular.ttf");
+}
+
+@font-face {
+  font-family: Poppins-Bold;
+  src: url("/assets/fonts//Poppins-SemiBold.ttf");
+}
 
 body {
   background-color: rgb(155, 196, 196);
@@ -49,23 +57,41 @@ body {
 .email {
   margin-bottom: 10px;
   color: white;
-  font-size: large;
+  font-family: Poppins-Bold;
+  display: flex;
 }
+
+.email-img {
+  font-size: 15px;
+  margin-right: 6px;
+}
+
 .email-ad {
   margin-top: 0px;
   margin-bottom: 30px;
   color: white;
+  font-family: Poppins;
+  font-size: 14px;
 }
 
 .phone {
   margin-bottom: 10px;
   color: white;
-  font-size: large;
+  font-size: medium;
+  font-family: Poppins-Bold;
+  display: flex;
+}
+
+.phone-img {
+  font-size: 15px;
+  margin-right: 6px;
 }
 
 .phone-num {
   margin-top: 0px;
   color: white;
+  font-family: Poppins;
+  font-size: 14px;
 }
 
 .split-bar {
@@ -76,6 +102,7 @@ body {
 
 .find-me {
   color: white;
+  font-family: Poppins-Bold;
 }
 
 .find-me-links {
