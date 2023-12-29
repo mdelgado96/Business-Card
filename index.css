@@ -19,24 +19,26 @@ body {
   background-color: rgb(155, 196, 196);
 }
 
+/* Full card */
 .main {
   position: fixed;
   background-color: white;
   left: 50%;
   top: 50%;
-  height: 530px;
+  height: 550px;
   width: 1000px;
   transform: translate(-50%, -50%);
   border-radius: 20px;
   box-shadow: 0px 5px 10px 0px #434343;
 }
 
+/* User image */
 .img-container {
   position: absolute;
   top: 30px;
   left: 260px;
-  height: 430px;
-  width: 280px;
+  height: 445px;
+  width: 300px;
 }
 
 .user-img {
@@ -44,12 +46,13 @@ body {
   height: 100%;
 }
 
+/* Contact information on the left side */
 .contact-container {
   height: 100%;
   background-color: rgb(0, 178, 178);
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
-  width: 300px;
+  width: 340px;
 }
 
 .contact-info {
@@ -128,32 +131,80 @@ body {
   display: flex;
 }
 
-a {
+.btn {
   margin-right: 15px;
 }
 
-a:hover img {
+.btn:hover img {
   transform: scale(1.2);
 }
 
-a {
+.btn {
   background-color: transparent;
   border: 0;
 }
 
+/* For smaller screens */
 @media (max-width: 1150px) {
   .main {
     height: 400px;
-    width: 800px;
+    width: 780px;
   }
 }
 
-/* @media (max-width: 1150px) {
+@media (max-width: 1150px) {
   .contact-container {
+    width: 285px;
+  }
+}
+
+@media (max-width: 1150px) {
+  .contact {
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 1150px) {
+  .img-container {
+    position: absolute;
+    top: 30px;
+    left: 240px;
+    height: 295px;
     width: 200px;
   }
-} */
+}
 
+@media (max-width: 1150px) {
+  .email {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 1150px) {
+  .email-ad {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 1150px) {
+  .phone {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 1150px) {
+  .phone-num {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 1150px) {
+  .find-me {
+    font-size: 13px;
+  }
+}
+
+/* Footer info */
 .footer {
   position: absolute;
   bottom: 0;
