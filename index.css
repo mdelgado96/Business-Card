@@ -169,6 +169,7 @@ body {
 .title-location {
   font-family: Poppins-Bold;
   margin-bottom: 15px;
+  font-size: 16px;
 }
 
 .skills {
@@ -182,6 +183,8 @@ body {
 
 .tech-title {
   font-family: Poppins-Bold;
+  margin-bottom: 15px;
+  font-size: 16px;
 }
 
 ul {
@@ -199,57 +202,71 @@ li {
     height: 400px;
     width: 780px;
   }
-}
 
-@media (max-width: 1150px) {
   .contact-container {
     width: 285px;
   }
-}
 
-@media (max-width: 1150px) {
   .contact {
     margin-bottom: 40px;
   }
-}
 
-@media (max-width: 1150px) {
   .img-container {
     position: absolute;
-    top: 30px;
+    top: 60px;
     left: 240px;
     height: 295px;
     width: 200px;
   }
-}
 
-@media (max-width: 1150px) {
   .email {
     font-size: 13px;
   }
-}
 
-@media (max-width: 1150px) {
   .email-ad {
     font-size: 13px;
   }
-}
 
-@media (max-width: 1150px) {
   .phone {
     font-size: 13px;
   }
-}
 
-@media (max-width: 1150px) {
   .phone-num {
     font-size: 13px;
   }
-}
 
-@media (max-width: 1150px) {
   .find-me {
     font-size: 13px;
+  }
+
+  .info-container {
+    margin: 70px 20px 0px 460px;
+  }
+
+  .name {
+    font-size: 25px;
+    margin-bottom: 5px;
+  }
+
+  .title-location {
+    margin-bottom: 5px;
+  }
+
+  .skills {
+    margin-right: 10px;
+    font-size: 11px;
+  }
+
+  .technologies {
+    margin-top: 10px;
+  }
+
+  .tech-title {
+    margin-bottom: 5px;
+  }
+
+  ul {
+    font-size: 11px;
   }
 }
 
