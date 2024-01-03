@@ -16,7 +16,7 @@
 }
 
 body {
-  background-color: rgb(186, 231, 186); /* rgb(155, 196, 196) */
+  background-color: rgb(155, 196, 196);
 }
 /* Full card */
 .main {
@@ -36,7 +36,7 @@ body {
 /* Contact information on the left side */
 .contact-container {
   height: 100%;
-  background-color: green; /* rgb(0, 178, 178) */
+  background-color: rgb(0, 178, 178);
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
   width: 340px;
@@ -162,7 +162,7 @@ body {
 }
 
 .zac {
-  color: green; /* rgb(0, 178, 178) */
+  color: rgb(0, 178, 178);
   margin-bottom: -15px;
 }
 
@@ -196,6 +196,59 @@ li {
   margin-bottom: 5px;
 }
 
+/* Shapes */
+.square {
+  position: absolute;
+  left: 230px;
+  top: 70px;
+  height: 50px;
+  width: 50px;
+  background-color: lightgray;
+  z-index: 3;
+}
+
+.rectangle {
+  position: absolute;
+  left: 540px;
+  top: 50px;
+  height: 20px;
+  width: 50px;
+  background-color: lightgray;
+  z-index: 3;
+}
+
+.square-two {
+  position: absolute;
+  left: 313px;
+  top: 450px;
+  height: 50px;
+  width: 50px;
+  background-color: lightgray;
+  z-index: 3;
+}
+
+.circle {
+  position: absolute;
+  background-color: rgb(0, 178, 178);
+  left: 535px;
+  top: 450px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  z-index: 1;
+}
+
+.corner-circle {
+  position: absolute;
+  background-color: rgb(0, 178, 178);
+  right: 0px;
+  top: 0px;
+  height: 70px;
+  width: 70px;
+  border-radius: 0 20px 0 70px;
+  z-index: -5;
+}
+
 /* For smaller screens */
 @media (max-width: 1150px) {
   .main {
@@ -208,7 +261,7 @@ li {
   }
 
   .contact {
-    margin-bottom: 40px;
+    margin-bottom: 35px;
   }
 
   .img-container {
@@ -267,6 +320,40 @@ li {
 
   ul {
     font-size: 11px;
+  }
+
+  .square {
+    left: 225px;
+    top: 80px;
+    height: 30px;
+    width: 30px;
+  }
+
+  .rectangle {
+    left: 425px;
+    top: 75px;
+    height: 15px;
+    width: 30px;
+  }
+
+  .square-two {
+    left: 270px;
+    top: 340px;
+    height: 30px;
+    width: 30px;
+  }
+
+  .circle {
+    left: 420px;
+    top: 335px;
+    height: 40px;
+    width: 40px;
+  }
+
+  .corner-circle {
+    height: 60px;
+    width: 60px;
+    border-radius: 0 20px 0 60px;
   }
 }
 
