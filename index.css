@@ -1,9 +1,5 @@
-/* * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
-} */
+/* add skeleton loading and fade-in 
+animations to the whole card */
 
 @font-face {
   font-family: Poppins;
@@ -146,6 +142,19 @@ body {
 .user-img {
   width: 100%;
   height: 100%;
+}
+
+.fade-in-img {
+  animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 /* User's righit side information */
